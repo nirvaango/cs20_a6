@@ -1,0 +1,27 @@
+/* Nirvaan Govind | CS20 Assignment 6: React | Problem 2 */
+
+.block {
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block:hover {
+  background-color: white !important; /* usinh !important to override the inline style in Block*/
+  color: black;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3,60px);
+  justify-content: center;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
